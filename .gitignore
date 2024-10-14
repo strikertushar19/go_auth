@@ -1,2 +1,50 @@
+# Binaries and temporary files
+/tmp/
+*.exe
+*.out
+*.test
+*.log
 
-tmp
+# Air temporary build artifacts
+air.conf  # In case you store Air config here
+tmp/
+
+# Build artifacts
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Swagger generated docs
+
+
+# Secrets or configuration files (example)
+.env
+config/local.yaml
+config/*.secret
+
+# Go dependencies
+go.sum
+/go/pkg/mod/
+*.modcache
+
+# Migration files (if not version-controlled)
+migrate/seeds/
+migrate/temp/
+migrate/tmp.sql
+migrations.log
+
+
+
+
